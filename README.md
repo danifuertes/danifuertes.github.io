@@ -26,7 +26,8 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
 - 📈 Master's in Signal Theory and Communications, focused on Machine Learning for Big Data.
 - 🎓 PhD Student at [Grupo de Tratamiento de Imágenes (GTI)](http://gti.ssr.upm.es).
 - 🌍 International internship at [Idiap Research Institute](https://www.idiap.ch).
-- 🧠 AI Researcher in Transformer networks, LLMs, Computer Vision, and Autonomous Navigation.
+- ✈️ Several research projects with industry partners like [Airbus Defence and Space](https://www.airbus.com).
+- 🧠 AI Researcher in Transformer Networks, LLMs, Computer Vision, and Autonomous Navigation.
 
 ---
 
@@ -280,11 +281,42 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
 
 ### 🌐 Let's connect!
 
-- 🔗 [GitHub](https://github.com/danifuertes)
-- 💼 [LinkedIn](https://www.linkedin.com/in/daniel-fuertes-coiras)
-- 🔬 [ORCID](https://orcid.org/0000-0002-5746-2199)
-- ✉️ dfc@gti.ssr.upm.es
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
 
-<p align="center">
+  <!-- GitHub Card -->
+  <a href="https://github.com/danifuertes" target="_blank" style="text-decoration: none;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
+      <img src="icons/github.svg" width="24" alt="GitHub">
+      <strong style="color: #24292e;">GitHub</strong>
+    </div>
+  </a>
+
+  <!-- LinkedIn Card -->
+  <a href="https://www.linkedin.com/in/daniel-fuertes-coiras" target="_blank" style="text-decoration: none;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
+      <img src="icons/linkedin.svg" width="24" alt="LinkedIn">
+      <strong style="color: #0A66C2;">LinkedIn</strong>
+    </div>
+  </a>
+
+  <!-- ORCID Card -->
+  <a href="https://orcid.org/0000-0002-5746-2199" target="_blank" style="text-decoration: none;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
+      <img src="icons/orcid.svg" width="24" alt="ORCID">
+      <strong style="color: #A6CE39;">ORCID</strong>
+    </div>
+  </a>
+
+  <!-- Email Card -->
+  <a href="mailto:dfc@gti.ssr.upm.es" style="text-decoration: none;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
+      <img src="icons/email.svg" width="24" alt="Email">
+      <strong style="color: #d44638;">Email</strong>
+    </div>
+  </a>
+
+</div>
+
+<p align="center" style="margin-top: 2rem;">
   <img src="https://komarev.com/ghpvc/?username=danifuertes&style=flat-square" alt="Profile views"/>
 </p>
