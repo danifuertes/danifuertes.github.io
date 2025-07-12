@@ -246,6 +246,7 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
       Digital Signal Processing, 2022
     </p>
     <a href="https://doi.org/10.1016/j.dsp.2022.103473" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
+    <a href="https://github.com/danifuertes/gsac_dnn" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
   </div>
 
 </div>
@@ -254,7 +255,7 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
 
   <div>
-    <img src="papers/logomix.png" width="220" style="border-radius: 8px;" />
+    <img src="papers/logo_mix.png" width="220" style="border-radius: 8px;" />
   </div>
 
   <div style="flex: 1;">
@@ -265,7 +266,10 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
       IEEE International Conference on Consumer Electronics (ICCE), 2022
     </p>
     <a href="https://doi.org/10.1109/ICCE53296.2022.9730444" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
+    <a href="https://github.com/danifuertes/logo_mix" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
   </div>
+
+<!-- TODO: Add TFG and TFM -->
 
 </div>
 
