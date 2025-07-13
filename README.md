@@ -1,61 +1,138 @@
-<div style="display: flex; align-items: center; background: url('images/background.gif') center/cover no-repeat; padding: 2rem; border-radius: 12px;">
 
-  <img src="images/dfc.jpg" width="160" style="border-radius: 50%; margin-right: 30px; border: 3px solid white;" alt="Daniel Fuertes">
-
-  <div>
-    <h1 style="margin: 0; color: white;">Daniel Fuertes</h1>
-    <h3 style="margin: 0; color: #eee;">PhD Student @ Universidad Politécnica de Madrid (UPM)</h3>
-    <p style="max-width: 600px; color: #f0f0f0; font-size: 0.95rem;">
-      🔬 AI Researcher | 👨‍🏫 PhD Student | 🦾 Deep Reinforcement Learning
+<!-- Presentation -->
+<div style="
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: url('images/background.gif') center/cover no-repeat;
+  padding: 2rem;
+  border-radius: 12px;
+  gap: 1.5rem;
+  text-align: center;
+">
+  <!-- Image -->
+  <img src="images/dfc.jpg" width="160" style="
+    border-radius: 50%;
+    border: 3px solid white;
+  "/>
+  <!-- Text -->
+  <div style="max-width: 600px;">
+    <h1 style="margin: 0; color: white;">
+      Daniel Fuertes
+    </h1>
+    <h3 style="margin: 0; color: #eee;">
+      PhD Student @ Universidad Politécnica de Madrid (UPM)
+    </h3>
+    <p style="color: #f0f0f0; font-size: 0.95rem; margin-top: 0.5rem;">
+      🔬 AI Researcher &nbsp;|&nbsp;
+      👨‍🏫 PhD Student &nbsp;|&nbsp;
+      🦾 Deep Reinforcement Learning
     </p>
   </div>
-
 </div>
 
+<!-- --- -->
 
 <!-- Connect -->
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; margin-top: 2rem;">
-
+<div style="
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  width: 100%;
+">
   <!-- GitHub -->
   <a href="https://github.com/danifuertes" target="_blank" style="text-decoration: none;">
-    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
-      <img src="icons/github.svg" width="24">
+    <div style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 120px;
+      padding: 0.8rem 1rem;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      background: #f9f9f9;
+      text-align: center;
+    ">
+      <img src="icons/github.svg" width="24" />
       <strong style="color: #24292e;">GitHub</strong>
     </div>
   </a>
-
   <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/daniel-fuertes-coiras" target="_blank" style="text-decoration: none;">
-    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
-      <img src="icons/linkedin.svg" width="24">
+    <div style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 120px;
+      padding: 0.8rem 1rem;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      background: #f9f9f9;
+      text-align: center;
+    ">
+      <img src="icons/linkedin.svg" width="24" />
       <strong style="color: #0A66C2;">LinkedIn</strong>
     </div>
   </a>
-
   <!-- ORCID -->
   <a href="https://orcid.org/0000-0002-5746-2199" target="_blank" style="text-decoration: none;">
-    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
-      <img src="icons/orcid.svg" width="24">
+    <div style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 120px;
+      padding: 0.8rem 1rem;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      background: #f9f9f9;
+      text-align: center;
+    ">
+      <img src="icons/orcid.svg" width="24" />
       <strong style="color: #A6CE39;">ORCID</strong>
     </div>
   </a>
-
-  <!-- Google Scholar -->
+  <!-- Scholar -->
   <a href="https://scholar.google.com/citations?user=-WN0LxoAAAAJ&hl=en" target="_blank" style="text-decoration: none;">
-    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
-      <img src="icons/scholar.svg" width="24">
-      <strong style="color: #4285F4;">Google Scholar</strong>
+    <div style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 120px;
+      padding: 0.8rem 1rem;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      background: #f9f9f9;
+      text-align: center;
+    ">
+      <img src="icons/scholar.svg" width="24" />
+      <strong style="color: #4285F4;">Scholar</strong>
     </div>
   </a>
-
   <!-- Email -->
   <a href="mailto:dfc@gti.ssr.upm.es" style="text-decoration: none;">
-    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
-      <img src="icons/email.svg" width="24">
+    <div style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 120px;
+      padding: 0.8rem 1rem;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      background: #f9f9f9;
+      text-align: center;
+    ">
+      <img src="icons/email.svg" width="24" />
       <strong style="color: #d44638;">Email</strong>
     </div>
   </a>
-
 </div>
 
 ---
@@ -80,7 +157,6 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
 ### 🛠️ Skills & Tools
 
 <table align="center" style="width:100%; text-align:left; border-collapse:collapse;">
-
   <tr>
     <td style="font-size:1.em; padding:10px; vertical-align:center;"><strong>💻 Programming, Scripting & IDEs</strong></td>
     <td style="padding:10px;">
@@ -92,7 +168,6 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
       <img src="icons/colab.svg" width="30"/>
     </td>
   </tr>
-
   <tr>
     <td style="font-size:1.em; padding:10px; vertical-align:center;"><strong>🤖 Deep (Reinforcement) Learning</strong></td>
     <td style="padding:10px;">
@@ -107,7 +182,6 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
       <img src="icons/isaacsim.svg" width="30"/>
     </td>
   </tr>
-
   <tr>
     <td style="font-size:1.em; padding:10px; vertical-align:center;"><strong>🗃️ DevOps & Tools</strong></td>
     <td style="padding:10px;">
@@ -120,7 +194,6 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
       <img src="icons/json.svg" width="30"/>
     </td>
   </tr>
-
   <tr>
     <td style="font-size:1.em; padding:10px; vertical-align:center;"><strong>📊 Scientific Computing, ML & Visualization</strong></td>
     <td style="padding:10px;">
@@ -135,7 +208,6 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
       <img src="icons/anaconda.svg" width="30"/>
     </td>
   </tr>
-
   <tr>
     <td style="font-size:1.em; padding:10px; vertical-align:center;"><strong>🧪 Experiment Tracking</strong></td>
     <td style="padding:10px;">
@@ -146,7 +218,6 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
       <img src="icons/papermill.svg" width="30"/>
     </td>
   </tr>
-
   <tr>
     <td style="font-size:1.em; padding:10px; vertical-align:center;"><strong>✍️ Documentation & Writing</strong></td>
     <td style="padding:10px;">
@@ -158,7 +229,6 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
       <img src="icons/inkscape.svg" width="30"/>
     </td>
   </tr>
-
   <tr>
     <td style="font-size:1.em; padding:10px; vertical-align:center;"><strong>💻 OS & Environment</strong></td>
     <td style="padding:10px;">
@@ -169,11 +239,7 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
       <img src="icons/windows11.svg" width="30"/>
     </td>
   </tr>
-
 </table>
-
-
-
 
 ---
 
@@ -181,11 +247,9 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
 
 <!-- NaviFormer -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
-
   <div>
-    <img src="papers/naviformer.png" width="220" style="border-radius: 8px;" />
+    <img src="papers/naviformer.svg" width="120" style="border-radius: 8px;" />
   </div>
-
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.4rem 0;">
       NaviFormer: A Deep Reinforcement Learning Transformer-like Model to Holistically Solve the Navigation Problem
@@ -196,16 +260,13 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <a href="https://doi.org/..." style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
     <a href="https://github.com/danifuertes" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px;">👾 Code</a>
   </div>
-
 </div>
 
 <!-- Ascension-Segments -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
-
   <div>
-    <img src="papers/ascension-segments.png" width="220" style="border-radius: 8px;" />
+    <img src="papers/ascension-segments.svg" width="120" style="border-radius: 8px;" />
   </div>
-
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.4rem 0;">
       Multi-stage Planning for Multi-target Surveillance using Aircrafts Equipped with Synthetic Aperture Radars Aware of Target Visibility
@@ -215,16 +276,13 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     </p>
     <a href="https://doi.org/..." style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
   </div>
-
 </div>
 
 <!-- TOP-Former -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
-
   <div>
-    <img src="papers/topformer.png" width="220" style="border-radius: 8px;" />
+    <img src="papers/topformer.svg" width="120" style="border-radius: 8px;" />
   </div>
-
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.4rem 0;">
       TOP-Former: A Multi-Agent Transformer Approach for the Team Orienteering Problem
@@ -235,16 +293,13 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <a href="https://doi.org/10.1109/TITS.2025.3566157" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
     <a href="https://github.com/danifuertes/top-former" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
   </div>
-
 </div>
 
 <!-- Inpercept -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
-
   <div>
-    <img src="papers/inpercept.png" width="220" style="border-radius: 8px;" />
+    <img src="papers/inpercept.svg" width="120" style="border-radius: 8px;" />
   </div>
-
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.4rem 0;">
       Enhanced Nighttime Vehicle Detection for On-Board Processing
@@ -254,16 +309,13 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     </p>
     <a href="https://doi.org/10.1109/ACCESS.2025.3548837" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
   </div>
-
 </div>
 
 <!-- MC-UAV -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
-
   <div>
-    <img src="papers/mc-uav.png" width="220" style="border-radius: 8px;" />
+    <img src="papers/mc-uav.svg" width="120" style="border-radius: 8px;" />
   </div>
-
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.4rem 0;">
       Solving Routing Problems for Multiple Cooperative Unmanned Aerial Vehicles using Transformer Networks
@@ -274,16 +326,13 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <a href="https://doi.org/10.1016/j.engappai.2023.106085" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
     <a href="https://github.com/danifuertes/mc_uav" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
   </div>
-
 </div>
 
 <!-- GSAC-DNN -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
-
   <div>
-    <img src="papers/gsac-dnn.png" width="220" style="border-radius: 8px;" />
+    <img src="papers/gsac-dnn.svg" width="120" style="border-radius: 8px;" />
   </div>
-
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.4rem 0;">
       People Detection with Omnidirectional Cameras using a Spatial Grid of Deep Learning Foveatic Classifiers
@@ -294,16 +343,13 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <a href="https://doi.org/10.1016/j.dsp.2022.103473" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
     <a href="https://github.com/danifuertes/gsac_dnn" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
   </div>
-
 </div>
 
 <!-- LogoMix -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
-
   <div>
-    <img src="papers/logo_mix.png" width="220" style="border-radius: 8px;" />
+    <img src="papers/logomix.svg" width="120" style="border-radius: 8px;" />
   </div>
-
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.4rem 0;">
       LogoMix: A Data Augmentation Technique for Object Detection Applied to Logo Recognition
@@ -314,16 +360,13 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <a href="https://doi.org/10.1109/ICCE53296.2022.9730444" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
     <a href="https://github.com/danifuertes/logo_mix" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
   </div>
-
 </div>
 
 <!-- TFM -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
-
   <div>
-    <img src="papers/tfm.png" width="220" style="border-radius: 8px;" />
+    <img src="papers/tfm.svg" width="120" style="border-radius: 8px;" />
   </div>
-
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.4rem 0;">
       Implementation of a logo detection system based on deep learning strategies for media impact analysis in social networks
@@ -333,26 +376,22 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     </p>
     <a href="https://oa.upm.es/63132/" style="padding: 6px 12px; margin-right: 8px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 5px;">📄 Thesis</a>
   </div>
-
 </div>
 
 <!-- TFG -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
-
   <div>
-    <img src="papers/tfg.png" width="220" style="border-radius: 8px;" />
+    <img src="papers/tfg.svg" width="120" style="border-radius: 8px;" />
   </div>
-
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.4rem 0;">
-      Implementation of a Vehicle Detection System Based on Convolutional Neural Networks from Traffic IP Cameras
+      Implementation of a vehicle detection system based on convolutional neural networks from traffic IP cameras
     </h3>
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
-      Bachelor’s Degree in Engineering of Telecommunication (UPM), 2019
+      Bachelor’s Degree in Telecommunication Engineering (UPM), 2019
     </p>
     <a href="https://oa.upm.es/55808/" style="padding: 6px 12px; margin-right: 8px; background-color: 	#2196F3; color: white; text-decoration: none; border-radius: 5px;">📄 Thesis</a>
   </div>
-
 </div>
 
 ---
@@ -363,10 +402,9 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
 - 🥈 [CESEDEN](https://www.defensa.gob.es/ceseden) Second Prize – Defense Tech Research (Zarco del Valle), 2022.
 - 📺 [RTVE](https://www.rtve.es) Award – Best Academic Record in Audiovisual Systems (2019)
 
-<!-- ---
+<!-- --- -->
 
-### 🌐 Let's connect! -->
-
+<!-- ### 🌐 Let's connect! -->
 <p align="center" style="margin-top: 2rem;">
   <img src="https://komarev.com/ghpvc/?username=danifuertes&style=flat-square" alt="Profile views"/>
 </p>
