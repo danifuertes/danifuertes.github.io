@@ -12,6 +12,52 @@
 
 </div>
 
+
+<!-- Connect -->
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; margin-top: 2rem;">
+
+  <!-- GitHub -->
+  <a href="https://github.com/danifuertes" target="_blank" style="text-decoration: none;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
+      <img src="icons/github.svg" width="24">
+      <strong style="color: #24292e;">GitHub</strong>
+    </div>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/daniel-fuertes-coiras" target="_blank" style="text-decoration: none;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
+      <img src="icons/linkedin.svg" width="24">
+      <strong style="color: #0A66C2;">LinkedIn</strong>
+    </div>
+  </a>
+
+  <!-- ORCID -->
+  <a href="https://orcid.org/0000-0002-5746-2199" target="_blank" style="text-decoration: none;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
+      <img src="icons/orcid.svg" width="24">
+      <strong style="color: #A6CE39;">ORCID</strong>
+    </div>
+  </a>
+
+  <!-- Google Scholar -->
+  <a href="https://scholar.google.com/citations?user=-WN0LxoAAAAJ&hl=en" target="_blank" style="text-decoration: none;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
+      <img src="icons/scholar.svg" width="24">
+      <strong style="color: #4285F4;">Google Scholar</strong>
+    </div>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:dfc@gti.ssr.upm.es" style="text-decoration: none;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
+      <img src="icons/email.svg" width="24">
+      <strong style="color: #d44638;">Email</strong>
+    </div>
+  </a>
+
+</div>
+
 ---
 
 ### 👋 About Me
@@ -269,7 +315,43 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <a href="https://github.com/danifuertes/logo_mix" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
   </div>
 
-<!-- TODO: Add TFG and TFM -->
+</div>
+
+<!-- TFM -->
+<div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
+
+  <div>
+    <img src="papers/tfm.png" width="220" style="border-radius: 8px;" />
+  </div>
+
+  <div style="flex: 1;">
+    <h3 style="margin: 0 0 0.4rem 0;">
+      Implementation of a logo detection system based on deep learning strategies for media impact analysis in social networks
+    </h3>
+    <p style="margin: 0 0 0.6rem 0; font-style: italic;">
+      Master in Signal Theory and Communications (UPM), 2020
+    </p>
+    <a href="https://oa.upm.es/63132/" style="padding: 6px 12px; margin-right: 8px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 5px;">📄 Thesis</a>
+  </div>
+
+</div>
+
+<!-- TFG -->
+<div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
+
+  <div>
+    <img src="papers/tfg.png" width="220" style="border-radius: 8px;" />
+  </div>
+
+  <div style="flex: 1;">
+    <h3 style="margin: 0 0 0.4rem 0;">
+      Implementation of a Vehicle Detection System Based on Convolutional Neural Networks from Traffic IP Cameras
+    </h3>
+    <p style="margin: 0 0 0.6rem 0; font-style: italic;">
+      Bachelor’s Degree in Engineering of Telecommunication (UPM), 2019
+    </p>
+    <a href="https://oa.upm.es/55808/" style="padding: 6px 12px; margin-right: 8px; background-color: 	#2196F3; color: white; text-decoration: none; border-radius: 5px;">📄 Thesis</a>
+  </div>
 
 </div>
 
@@ -281,45 +363,9 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
 - 🥈 [CESEDEN](https://www.defensa.gob.es/ceseden) Second Prize – Defense Tech Research (Zarco del Valle), 2022.
 - 📺 [RTVE](https://www.rtve.es) Award – Best Academic Record in Audiovisual Systems (2019)
 
----
+<!-- ---
 
-### 🌐 Let's connect!
-
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
-
-  <!-- GitHub Card -->
-  <a href="https://github.com/danifuertes" target="_blank" style="text-decoration: none;">
-    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
-      <img src="icons/github.svg" width="24" alt="GitHub">
-      <strong style="color: #24292e;">GitHub</strong>
-    </div>
-  </a>
-
-  <!-- LinkedIn Card -->
-  <a href="https://www.linkedin.com/in/daniel-fuertes-coiras" target="_blank" style="text-decoration: none;">
-    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
-      <img src="icons/linkedin.svg" width="24" alt="LinkedIn">
-      <strong style="color: #0A66C2;">LinkedIn</strong>
-    </div>
-  </a>
-
-  <!-- ORCID Card -->
-  <a href="https://orcid.org/0000-0002-5746-2199" target="_blank" style="text-decoration: none;">
-    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
-      <img src="icons/orcid.svg" width="24" alt="ORCID">
-      <strong style="color: #A6CE39;">ORCID</strong>
-    </div>
-  </a>
-
-  <!-- Email Card -->
-  <a href="mailto:dfc@gti.ssr.upm.es" style="text-decoration: none;">
-    <div style="display: flex; align-items: center; gap: 10px; padding: 0.8rem 1.2rem; border: 2px solid #ddd; border-radius: 12px; background: #f9f9f9;">
-      <img src="icons/email.svg" width="24" alt="Email">
-      <strong style="color: #d44638;">Email</strong>
-    </div>
-  </a>
-
-</div>
+### 🌐 Let's connect! -->
 
 <p align="center" style="margin-top: 2rem;">
   <img src="https://komarev.com/ghpvc/?username=danifuertes&style=flat-square" alt="Profile views"/>
