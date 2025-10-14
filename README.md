@@ -257,8 +257,8 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
       IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025
     </p>
-    <a href="https://doi.org/..." style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
-    <a href="https://github.com/danifuertes" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px;">👾 Code</a>
+    <a href="https://doi.org/..." style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📄 Paper</a>
+    <a href="https://github.com/danifuertes" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">👾 Code</a>
   </div>
 </div>
 
@@ -274,7 +274,7 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
       IEEE International Conference on Automation Science and Engineering (CASE), 2025
     </p>
-    <a href="https://doi.org/..." style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
+    <a href="https://doi.org/10.1109/CASE58245.2025.11163906" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📄 Paper</a>
   </div>
 </div>
 
@@ -290,8 +290,12 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
       IEEE Transactions on Intelligent Transportation Systems, 2025
     </p>
-    <a href="https://doi.org/10.1109/TITS.2025.3566157" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
-    <a href="https://github.com/danifuertes/top-former" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
+    <a href="https://doi.org/10.1109/TITS.2025.3566157" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📄 Paper</a>
+    <a href="https://doi.org/10.48550/arXiv.2311.18662" style="padding: 6px 12px; margin-right: 8px; background-color: #af574cff; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">
+      <img src="images/logo_arxiv.svg" width="12" style="margin-right: 8px; background-color: transparent;" />
+      Arxiv
+    </a>
+    <a href="https://github.com/danifuertes/top-former" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">👾 Code</a>
   </div>
 </div>
 
@@ -307,7 +311,7 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
       IEEE Access, 2025
     </p>
-    <a href="https://doi.org/10.1109/ACCESS.2025.3548837" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
+    <a href="https://doi.org/10.1109/ACCESS.2025.3548837" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📄 Paper</a>
   </div>
 </div>
 
@@ -323,8 +327,8 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
       Engineering Applications of Artificial Intelligence, 2023
     </p>
-    <a href="https://doi.org/10.1016/j.engappai.2023.106085" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
-    <a href="https://github.com/danifuertes/mc_uav" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
+    <a href="https://doi.org/10.1016/j.engappai.2023.106085" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📄 Paper</a>
+    <a href="https://github.com/danifuertes/mc_uav" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">👾 Code</a>
   </div>
 </div>
 
@@ -340,8 +344,8 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
       Digital Signal Processing, 2022
     </p>
-    <a href="https://doi.org/10.1016/j.dsp.2022.103473" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
-    <a href="https://github.com/danifuertes/gsac_dnn" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
+    <a href="https://doi.org/10.1016/j.dsp.2022.103473" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📄 Paper</a>
+    <a href="https://github.com/danifuertes/gsac_dnn" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">👾 Code</a>
   </div>
 </div>
 
@@ -357,8 +361,8 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
       IEEE International Conference on Consumer Electronics (ICCE), 2022
     </p>
-    <a href="https://doi.org/10.1109/ICCE53296.2022.9730444" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">📄 Paper</a>
-    <a href="https://github.com/danifuertes/logo_mix" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 4px;">👾 Code</a>
+    <a href="https://doi.org/10.1109/ICCE53296.2022.9730444" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📄 Paper</a>
+    <a href="https://github.com/danifuertes/logo_mix" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">👾 Code</a>
   </div>
 </div>
 
@@ -374,7 +378,7 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
       Master in Signal Theory and Communications (UPM), 2020
     </p>
-    <a href="https://oa.upm.es/63132/" style="padding: 6px 12px; margin-right: 8px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 5px;">📄 Thesis</a>
+    <a href="https://oa.upm.es/63132/" style="padding: 6px 12px; margin-right: 8px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📖 Thesis</a>
   </div>
 </div>
 
@@ -390,7 +394,7 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
       Bachelor’s Degree in Telecommunication Engineering (UPM), 2019
     </p>
-    <a href="https://oa.upm.es/55808/" style="padding: 6px 12px; margin-right: 8px; background-color: 	#2196F3; color: white; text-decoration: none; border-radius: 5px;">📄 Thesis</a>
+    <a href="https://oa.upm.es/55808/" style="padding: 6px 12px; margin-right: 8px; background-color: 	#2196F3; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📖 Thesis</a>
   </div>
 </div>
 
