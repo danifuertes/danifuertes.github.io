@@ -22,11 +22,11 @@
       Daniel Fuertes
     </h1>
     <h3 style="margin: 0; color: #eee;">
-      PhD Student @ Universidad Politécnica de Madrid (UPM)
+      Assistant Professor @ Universidad Politécnica de Madrid (UPM)
     </h3>
     <p style="color: #f0f0f0; font-size: 0.95rem; margin-top: 0.5rem;">
       🔬 AI Researcher &nbsp;|&nbsp;
-      👨‍🏫 PhD Student &nbsp;|&nbsp;
+      👨‍🏫 Assistant Professor &nbsp;|&nbsp;
       🦾 Deep Reinforcement Learning
     </p>
   </div>
@@ -139,7 +139,7 @@
 
 ### 👋 About Me
 
-Daniel Fuertes received the Bachelor's degree in Telecommunication Engineering and the Master’s degree in Signal Theory and Communications from the Universidad Politécnica de Madrid (UPM), Spain, in 2019 and 2020, respectively. Since 2020, he has been a researcher at the Grupo de Tratamiento de Imágenes (Image Processing Group), UPM, actively contributing to various collaborative research projects with industry partners.  
+Daniel Fuertes received the Bachelor’s degree in Telecommunication Engineering in 2019 and the Ph.D. degree in Telecommunication Engineering in 2025, both from the Universidad Politécnica de Madrid (UPM), Madrid, Spain. He has been a member of the Grupo de Tratamiento de Imágenes (Image Processing Group) at UPM since 2020, actively participating in several research projects with industry partners. In 2025, he joined the Department of Signals, Systems, and Communications as an Assistant Professor of Signal Theory and Communications.
 
 His research interests lie in the fields of Artificial Intelligence, Deep Learning, Reinforcement Learning, Autonomous Navigation, Vehicle Routing Problems, Computer Vision, Machine Learning, and Signal Processing.
 
@@ -147,7 +147,7 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
 
 - 📡 Telecommunications Engineer, specialized in audiovisual systems and signal processing.
 - 📈 Master's in Signal Theory and Communications, focused on Machine Learning for Big Data.
-- 🎓 PhD Student at [Grupo de Tratamiento de Imágenes (GTI)](http://gti.ssr.upm.es).
+- 🎓 PhD in Telecomunications Engineering at [Grupo de Tratamiento de Imágenes (GTI)](http://gti.ssr.upm.es).
 - 🌍 International internship at [Idiap Research Institute](https://www.idiap.ch).
 - ✈️ Several research projects with industry partners like [Airbus Defence and Space](https://www.airbus.com).
 - 🧠 AI Researcher in Transformer Networks, LLMs, Computer Vision, and Autonomous Navigation.
@@ -244,6 +244,22 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
 ---
 
 ### 📚 Publications
+
+<!-- PhD -->
+<div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
+  <div>
+    <img src="papers/phd.svg" width="120" style="border-radius: 8px;" />
+  </div>
+  <div style="flex: 1;">
+    <h3 style="margin: 0 0 0.4rem 0;">
+      Multi-agent Route Planning using Deep Reinforcement Learning Techniques and Transformer Networks for Graph Analysis
+    </h3>
+    <p style="margin: 0 0 0.6rem 0; font-style: italic;">
+      PhD in Telecommunication Engineering (UPM), 2025
+    </p>
+    <a href="https://doi.org/10.20868/UPM.thesis.91225" style="padding: 6px 12px; margin-right: 8px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📖 Thesis</a>
+  </div>
+</div>
 
 <!-- NaviFormer -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
