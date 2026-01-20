@@ -273,7 +273,7 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
     <p style="margin: 0 0 0.6rem 0; font-style: italic;">
       IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025
     </p>
-    <a href="https://doi.org/..." style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📄 Paper</a>
+    <a href="https://doi.org/10.1109/IROS60139.2025.11246746" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📄 Paper</a>
     <a href="https://github.com/danifuertes" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">👾 Code</a>
   </div>
 </div>
