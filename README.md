@@ -245,6 +245,27 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
 
 ### 📚 Publications
 
+<!-- MAEnvs4VRP -->
+<div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
+  <div>
+    <img src="papers/maenvs4vrp.png" width="120" style="border-radius: 8px;" />
+  </div>
+  <div style="flex: 1;">
+    <h3 style="margin: 0 0 0.4rem 0;">
+      Multiagent Environments for Vehicle Routing Problems
+    </h3>
+    <p style="margin: 0 0 0.6rem 0; font-style: italic;">
+      INFORMS Journal on Computing, 2026
+    </p>
+    <a href="https://doi.org/10.1287/ijoc.2025.1211" style="padding: 6px 12px; margin-right: 8px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;  display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">📄 Paper</a>
+    <a href="https://doi.org/10.48550/arXiv.2411.14411" style="padding: 6px 12px; margin-right: 8px; background-color: #af574cff; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">
+      <img src="images/logo_arxiv.svg" width="12" style="margin-right: 8px; background-color: transparent;" />
+      Arxiv
+    </a>
+    <a href="https://github.com/MAEnvs4VRP/maenvs4vrp" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">👾 Code</a>
+  </div>
+</div>
+
 <!-- PhD -->
 <div style="display: flex; align-items: center; margin-bottom: 2rem; gap: 1.5rem;">
   <div>
@@ -278,7 +299,7 @@ His research interests lie in the fields of Artificial Intelligence, Deep Learni
       <img src="images/logo_arxiv.svg" width="12" style="margin-right: 8px; background-color: transparent;" />
       Arxiv
     </a>
-    <a href="https://github.com/danifuertes" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">👾 Code</a>
+    <a href="https://github.com/danifuertes/naviformer" style="padding: 6px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; vertical-align: middle; font-weight: bold;">👾 Code</a>
   </div>
 </div>
 
