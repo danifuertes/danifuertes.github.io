@@ -1,12 +1,69 @@
-# Skills grouped by category, shown as plain tags.
+# Skills grouped by category. `icon` is a file in assets/icons/.
 
-- group: Deep learning & RL
-  items: [PyTorch, TensorFlow, Keras, Hugging Face, Gymnasium, Stable-Baselines3, Isaac Lab, Isaac Sim]
-- group: Scientific computing
-  items: [Python, MATLAB, NumPy, pandas, scikit-learn, OpenCV, Matplotlib, Seaborn]
-- group: Experimentation
-  items: [Weights & Biases, TensorBoard, Hydra, Papermill, Jupyter, Streamlit, Gradio]
-- group: Infrastructure
-  items: [Linux, Docker, Kubernetes, Git, Bash]
-- group: Writing
-  items: [LaTeX, Overleaf, draw.io, Inkscape]
+- group: Programming & IDEs
+  items:
+    - { name: Python, icon: python.svg }
+    - { name: MATLAB, icon: matlab.svg }
+    - { name: VS Code, icon: vscode.svg }
+    - { name: PyCharm, icon: pycharm.svg }
+    - { name: Jupyter, icon: jupyter.svg }
+    - { name: Colab, icon: colab.svg }
+
+- group: Deep (reinforcement) learning
+  items:
+    - { name: PyTorch, icon: pytorch.svg }
+    - { name: TensorFlow, icon: tensorflow.svg }
+    - { name: Keras, icon: keras.svg }
+    - { name: Hugging Face, icon: huggingface.svg }
+    - { name: Kaggle, icon: kaggle.svg }
+    - { name: Gymnasium, icon: gymnasium.webp }
+    - { name: Stable-Baselines3, icon: stablebaselines3.webp }
+    - { name: Isaac Lab, icon: isaaclab.webp }
+    - { name: Isaac Sim, icon: isaacsim.svg }
+
+- group: Scientific computing & visualization
+  items:
+    - { name: NumPy, icon: numpy.svg }
+    - { name: pandas, icon: pandas.svg }
+    - { name: Matplotlib, icon: matplotlib.svg }
+    - { name: Seaborn, icon: seaborn.svg }
+    - { name: scikit-learn, icon: scikitlearn.svg }
+    - { name: OpenCV, icon: opencv.svg }
+    - { name: Streamlit, icon: streamlit.svg }
+    - { name: Gradio, icon: gradio.svg }
+    - { name: Anaconda, icon: anaconda.svg }
+
+- group: Experiment tracking
+  items:
+    - { name: TensorBoard, icon: tensorboard.svg }
+    - { name: Weights & Biases, icon: wandb.svg }
+    - { name: Hydra, icon: hydra.webp }
+    - { name: Papermill, icon: papermill.svg }
+    - { name: tqdm, icon: tqdm.svg }
+
+- group: DevOps & tools
+  items:
+    - { name: Docker, icon: docker.svg }
+    - { name: Kubernetes, icon: kubernetes.svg }
+    - { name: Git, icon: git.svg }
+    - { name: GitHub, icon: github.svg }
+    - { name: Bitbucket, icon: bitbucket.svg }
+    - { name: YAML, icon: yaml.svg }
+    - { name: JSON, icon: json.svg }
+
+- group: Documentation & writing
+  items:
+    - { name: LaTeX, icon: latex.svg }
+    - { name: Overleaf, icon: overleaf.svg }
+    - { name: Markdown, icon: markdown.svg }
+    - { name: Notion, icon: notion.svg }
+    - { name: draw.io, icon: drawio.svg }
+    - { name: Inkscape, icon: inkscape.svg }
+
+- group: OS & environment
+  items:
+    - { name: Linux, icon: linux.webp }
+    - { name: Ubuntu, icon: ubuntu.svg }
+    - { name: Windows, icon: windows11.svg }
+    - { name: Bash, icon: bash.svg }
+    - { name: PowerShell, icon: powershell.svg }

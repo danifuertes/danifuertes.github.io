@@ -4,8 +4,7 @@
 (function () {
   "use strict";
 
-  const NEWS_LIMIT = 6;
-  const DATA_FILES = ["profile", "news", "research", "publications", "experience", "teaching", "awards", "skills"];
+  const DATA_FILES = ["profile", "research", "publications", "experience", "teaching", "awards", "skills"];
 
   /* Helpers -------------------------------------------------------------- */
 
@@ -45,7 +44,9 @@
 
   function renderProfile(p) {
     const links = p.links.map((l) => `
-      <li>${extLink(l.url, `<span class="link-list__icon"><img src="assets/icons/${esc(l.icon)}" alt="" width="18" height="18" class="brand-icon brand-icon--${esc(l.icon.replace(".svg", ""))}"></span>${esc(l.label)}`)}</li>`).join("");
+      <li><a href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.label)}" aria-label="${esc(l.label)}">
+        <img src="assets/icons/${esc(l.icon)}" alt="" width="20" height="20" class="logo">
+      </a></li>`).join("");
 
     return `
       <img class="profile-card__photo" src="${esc(p.photo)}" alt="Portrait of ${esc(p.name)}" width="132" height="132">
@@ -54,10 +55,11 @@
         <p class="profile-card__role">${esc(p.position)}</p>
         <p class="profile-card__affiliation">${extLink(p.affiliation_url, esc(p.affiliation))}</p>
         ${tags(p.interests, "tag-list--center")}
-        <ul class="link-list">
-          <li><a href="mailto:${esc(p.email)}"><span class="link-list__icon">${icon("mail")}</span>${esc(p.email)}</a></li>
+        <ul class="social-links">
+          <li><a href="mailto:${esc(p.email)}" title="${esc(p.email)}" aria-label="Email">${icon("mail")}</a></li>
           ${links}
         </ul>
+        <a class="profile-card__email" href="mailto:${esc(p.email)}">${esc(p.email)}</a>
         ${p.cv ? `<a class="button button--primary button--block" href="${esc(p.cv)}" target="_blank" rel="noopener">${icon("download")} Download CV</a>` : ""}
       </div>`;
   }
@@ -66,27 +68,13 @@
 
   const renderAbout = (p) => `<div class="prose">${paragraphs(p.bio)}</div>`;
 
-  const renderNews = (news) => !news.length ? "" : `
-    <ul class="news">${news.slice(0, NEWS_LIMIT).map((n) => `
-      <li class="news__item">
-        <span class="news__date">${esc(n.date)}</span>
-        <span class="news__text">${inline(n.text)}</span>
-      </li>`).join("")}
-    </ul>`;
-
-  function renderResearch(lines, pubs) {
-    if (!lines.length) return "";
-    const byId = Object.fromEntries(pubs.map((p) => [p.id, p]));
-    return `<div class="research-grid">${lines.map((r) => `
+  const renderResearch = (lines) => !lines.length ? "" : `
+    <div class="research-grid">${lines.map((r) => `
       <article class="research-card">
         <h3 class="research-card__title">${esc(r.title)}</h3>
         <p class="research-card__text">${esc(r.description)}</p>
-        <ul class="research-card__papers">${(r.papers || []).filter((id) => byId[id]).map((id) =>
-          `<li><a href="#pub-${esc(id)}">${esc(byId[id].short)}</a></li>`).join("")}
-        </ul>
       </article>`).join("")}
     </div>`;
-  }
 
   function renderPublication(pub, selfName) {
     const link = pub.doi ? `https://doi.org/${pub.doi}` : pub.url;
@@ -179,7 +167,12 @@
     </ul>`;
 
   const renderSkills = (groups) => !groups.length ? "" : `
-    <dl class="skills">${groups.map((g) => `<dt>${esc(g.group)}</dt><dd>${tags(g.items)}</dd>`).join("")}</dl>`;
+    <dl class="skills">${groups.map((g) => `
+      <dt>${esc(g.group)}</dt>
+      <dd><ul class="skill-list">${g.items.map((s) => `
+        <li class="skill"><img src="assets/icons/${esc(s.icon)}" alt="" width="18" height="18" class="logo" loading="lazy">${esc(s.name)}</li>`).join("")}
+      </ul></dd>`).join("")}
+    </dl>`;
 
   /* Page assembly -------------------------------------------------------- */
 
@@ -201,8 +194,7 @@
 
     document.getElementById("profile").innerHTML = renderProfile(d.profile);
     fill("about", renderAbout(d.profile));
-    fill("news", renderNews(d.news));
-    fill("research", renderResearch(d.research, d.publications));
+    fill("research", renderResearch(d.research));
     fill("publications", renderPublications(d.publications, d.profile.name));
     fill("experience", renderExperience(d.experience));
     fill("teaching", renderTeaching(d.teaching));

@@ -18,7 +18,7 @@ assets/
   js/route-graph.js Animated multi-agent routing banner in the sidebar
   js/vendor/        Third-party libraries (js-yaml, the YAML parser)
   img/              Profile photo, favicon, and paper thumbnails in img/papers/
-  icons/            Brand icons for the contact links (Scholar, ORCID, GitHub, LinkedIn)
+  icons/            Logos for the contact links and the skills
 ```
 
 ## Editing content
@@ -26,13 +26,12 @@ assets/
 | File | What it controls |
 | --- | --- |
 | [`data/profile.yml`](data/profile.yml) | Name, position, photo, bio, interests, contact links, CV |
-| [`data/news.yml`](data/news.yml) | Dated updates (newest first; the first 6 are shown) |
-| [`data/research.yml`](data/research.yml) | Research lines and their related papers |
+| [`data/research.yml`](data/research.yml) | Research lines |
 | [`data/publications.yml`](data/publications.yml) | Papers and theses, with links and BibTeX |
 | [`data/experience.yml`](data/experience.yml) | Positions and education |
 | [`data/teaching.yml`](data/teaching.yml) | Courses (section hidden while empty) |
 | [`data/awards.yml`](data/awards.yml) | Awards |
-| [`data/skills.yml`](data/skills.yml) | Skills grouped by category |
+| [`data/skills.yml`](data/skills.yml) | Skills grouped by category, each with a logo from `assets/icons/` |
 
 A section whose file is empty is hidden automatically, along with its link in the navigation bar. To reorder sections, move the `<section>` lines in `index.html`.
 
@@ -43,7 +42,6 @@ A section whose file is empty is hidden automatically, along with its link in th
    ```bash
    convert figure.png -resize 360x360 -quality 80 assets/img/papers/<id>.webp
    ```
-3. Optionally reference the `id` from a research line in `data/research.yml` and add a line to `data/news.yml`.
 
 ## Local preview
 

@@ -1,19 +1,16 @@
-# Research lines shown as cards. `papers` lists publication ids from publications.yml.
+# Research lines shown as cards.
 
 - title: Multi-agent route planning
   description: >-
-    Deep reinforcement learning and Transformer networks that plan routes for fleets of cooperating agents
-    (UAVs, vehicles, aircraft) on vehicle routing and orienteering problems.
-  papers: [top-former, mc-uav, maenvs4vrp, sar-surveillance, phd-thesis]
+    Planning routes for fleets of cooperating agents, such as UAVs, vehicles or aircraft, on vehicle routing
+    and orienteering problems.
 
 - title: Autonomous navigation
   description: >-
     End-to-end models that solve route planning and path finding jointly, so agents reach their goals
     while avoiding obstacles.
-  papers: [naviformer]
 
-- title: Computer vision
+- title: Deep learning
   description: >-
-    Deep learning for detection under hard conditions: nighttime driving, omnidirectional cameras and
-    logo recognition with limited data.
-  papers: [nighttime-vehicles, gsac-dnn, logomix]
+    Deep reinforcement learning and Transformer networks for decision making on graphs, and deep learning
+    models for perception and computer vision.

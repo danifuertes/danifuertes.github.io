@@ -10,10 +10,10 @@
   var ctx = canvas.getContext("2d");
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  var NODE_COUNT = 26;
-  var AGENT_COUNT = 3;
-  var STOPS_PER_ROUTE = 5;
-  var SPEED = 32; // px per second
+  var NODE_COUNT = 14;
+  var AGENT_COUNT = 2;
+  var STOPS_PER_ROUTE = 4;
+  var SPEED = 24; // px per second
 
   var width = 0, height = 0, nodes = [], depot = null, agents = [], colors = {};
   var running = false, visible = true, lastTime = 0;
@@ -21,7 +21,6 @@
   function readColors() {
     var style = getComputedStyle(document.documentElement);
     colors.node = style.getPropertyValue("--graph-node").trim();
-    colors.edge = style.getPropertyValue("--graph-edge").trim();
     colors.agents = style.getPropertyValue("--graph-agents").split(",").map(function (c) { return c.trim(); });
   }
 
@@ -90,20 +89,6 @@
 
   function draw() {
     ctx.clearRect(0, 0, width, height);
-
-    // Faint proximity edges for a graph texture.
-    ctx.strokeStyle = colors.edge;
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    for (var i = 0; i < nodes.length; i++) {
-      for (var j = i + 1; j < nodes.length; j++) {
-        if (Math.hypot(nodes[i].x - nodes[j].x, nodes[i].y - nodes[j].y) < 62) {
-          ctx.moveTo(nodes[i].x, nodes[i].y);
-          ctx.lineTo(nodes[j].x, nodes[j].y);
-        }
-      }
-    }
-    ctx.stroke();
 
     ctx.fillStyle = colors.node;
     nodes.forEach(function (n) { ctx.beginPath(); ctx.arc(n.x, n.y, 1.8, 0, Math.PI * 2); ctx.fill(); });
