@@ -1,0 +1,228 @@
+# Publications, newest first. They are grouped by `year` on the page.
+#
+# Fields:
+#   id        unique slug; the thumbnail must be assets/img/papers/<id>.webp (≈360 px, WebP)
+#   type      journal | conference | thesis
+#   title     full title
+#   authors   list of author names; the profile name is highlighted automatically
+#   venue     full venue name
+#   short     short badge shown on the card (e.g. "IROS 2025")
+#
+# Titles and venue names are not translated. Theses use {en: ..., es: ...} for `venue` and `short`.
+#   year      publication year
+#   doi       DOI without the https://doi.org/ prefix          (optional)
+#   url       link when there is no DOI                          (optional)
+#   arxiv     arXiv identifier, e.g. 2311.18662                   (optional)
+#   code      repository URL                                      (optional)
+#   bibtex    BibTeX entry, shown with a copy button              (optional)
+
+- id: maenvs4vrp
+  type: journal
+  title: Multiagent Environments for Vehicle Routing Problems
+  authors: [Ricardo Gama, Ricardo Cunha, Daniel Fuertes, Carlos R. del-Blanco, Hugo L. Fernandes]
+  venue: INFORMS Journal on Computing
+  short: IJOC 2026
+  year: 2026
+  doi: 10.1287/ijoc.2025.1211
+  arxiv: "2411.14411"
+  code: https://github.com/MAEnvs4VRP/maenvs4vrp
+  bibtex: |
+    @article{gama2026maenvs4vrp,
+      title     = {Multiagent Environments for Vehicle Routing Problems},
+      author    = {Gama, Ricardo and Cunha, Ricardo and Fuertes, Daniel and del-Blanco, Carlos R. and Fernandes, Hugo L.},
+      journal   = {INFORMS Journal on Computing},
+      year      = {2026},
+      publisher = {INFORMS},
+      doi       = {10.1287/ijoc.2025.1211}
+    }
+
+- id: phd-thesis
+  type: thesis
+  title: Multi-agent Route Planning using Deep Reinforcement Learning Techniques and Transformer Networks for Graph Analysis
+  authors: [Daniel Fuertes]
+  venue: {en: "PhD Thesis, Universidad Politécnica de Madrid", es: "Tesis doctoral, Universidad Politécnica de Madrid"}
+  short: {en: PhD 2025, es: Tesis 2025}
+  year: 2025
+  doi: 10.20868/UPM.thesis.91225
+  bibtex: |
+    @phdthesis{fuertes2025phd,
+      title  = {Multi-agent Route Planning using Deep Reinforcement Learning Techniques and Transformer Networks for Graph Analysis},
+      author = {Fuertes Coiras, Daniel},
+      school = {Universidad Polit{\'e}cnica de Madrid},
+      year   = {2025},
+      doi    = {10.20868/UPM.thesis.91225}
+    }
+
+- id: naviformer
+  type: conference
+  title: "NaviFormer: A Deep Reinforcement Learning Transformer-like Model to Holistically Solve the Navigation Problem"
+  authors: [Daniel Fuertes, Andrea Cavallaro, Carlos R. del-Blanco, Fernando Jaureguizar, Narciso García]
+  venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  short: IROS 2025
+  year: 2025
+  doi: 10.1109/IROS60139.2025.11246746
+  arxiv: "2604.16967"
+  code: https://github.com/danifuertes/naviformer
+  bibtex: |
+    @inproceedings{fuertes2025naviformer,
+      title     = {NaviFormer: A Deep Reinforcement Learning Transformer-like Model to Holistically Solve the Navigation Problem},
+      author    = {Fuertes, Daniel and Cavallaro, Andrea and del-Blanco, Carlos R. and Jaureguizar, Fernando and Garc{\'i}a, Narciso},
+      booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      pages     = {15430--15437},
+      year      = {2025},
+      doi       = {10.1109/IROS60139.2025.11246746}
+    }
+
+- id: sar-surveillance
+  type: conference
+  title: Multi-stage Planning for Multi-target Surveillance using Aircrafts Equipped with Synthetic Aperture Radars Aware of Target Visibility
+  authors: [Daniel Fuertes, Carlos R. del-Blanco, Fernando Jaureguizar, Juan José Navarro-Corcuera, Narciso García]
+  venue: IEEE International Conference on Automation Science and Engineering (CASE)
+  short: CASE 2025
+  year: 2025
+  doi: 10.1109/CASE58245.2025.11163906
+  arxiv: "2604.16962"
+  bibtex: |
+    @inproceedings{fuertes2025multistage,
+      title     = {Multi-stage Planning for Multi-target Surveillance using Aircrafts Equipped with Synthetic Aperture Radars Aware of Target Visibility},
+      author    = {Fuertes, Daniel and del-Blanco, Carlos R. and Jaureguizar, Fernando and Navarro-Corcuera, Juan Jos{\'e} and Garc{\'i}a, Narciso},
+      booktitle = {IEEE International Conference on Automation Science and Engineering (CASE)},
+      pages     = {2909--2914},
+      year      = {2025},
+      doi       = {10.1109/CASE58245.2025.11163906}
+    }
+
+- id: top-former
+  type: journal
+  title: "TOP-Former: A Multi-Agent Transformer Approach for the Team Orienteering Problem"
+  authors: [Daniel Fuertes, Carlos R. del-Blanco, Fernando Jaureguizar, Narciso García]
+  venue: IEEE Transactions on Intelligent Transportation Systems
+  short: T-ITS 2025
+  year: 2025
+  doi: 10.1109/TITS.2025.3566157
+  arxiv: "2311.18662"
+  code: https://github.com/danifuertes/top-former
+  bibtex: |
+    @article{fuertes2025topformer,
+      title   = {TOP-Former: A Multi-Agent Transformer Approach for the Team Orienteering Problem},
+      author  = {Fuertes, Daniel and del-Blanco, Carlos R. and Jaureguizar, Fernando and Garc{\'i}a, Narciso},
+      journal = {IEEE Transactions on Intelligent Transportation Systems},
+      volume  = {26},
+      number  = {9},
+      pages   = {13799--13810},
+      year    = {2025},
+      doi     = {10.1109/TITS.2025.3566157}
+    }
+
+- id: nighttime-vehicles
+  type: journal
+  title: Enhanced Nighttime Vehicle Detection for On-Board Processing
+  authors: [Leyre Encío, Daniel Fuertes, Carlos R. del-Blanco, Iu Aguilar, Cristina Pérez-Benito, Aleksandar Jevtić, Fernando Jaureguizar, Narciso García]
+  venue: IEEE Access
+  short: IEEE Access 2025
+  year: 2025
+  doi: 10.1109/ACCESS.2025.3548837
+  bibtex: |
+    @article{encio2025nighttime,
+      title   = {Enhanced Nighttime Vehicle Detection for On-Board Processing},
+      author  = {Enc{\'i}o, Leyre and Fuertes, Daniel and del-Blanco, Carlos R. and Aguilar, Iu and P{\'e}rez-Benito, Cristina and Jevti{\'c}, Aleksandar and Jaureguizar, Fernando and Garc{\'i}a, Narciso},
+      journal = {IEEE Access},
+      volume  = {13},
+      pages   = {44817--44835},
+      year    = {2025},
+      doi     = {10.1109/ACCESS.2025.3548837}
+    }
+
+- id: mc-uav
+  type: journal
+  title: Solving Routing Problems for Multiple Cooperative Unmanned Aerial Vehicles using Transformer Networks
+  authors: [Daniel Fuertes, Carlos R. del-Blanco, Fernando Jaureguizar, Juan José Navarro, Narciso García]
+  venue: Engineering Applications of Artificial Intelligence
+  short: EAAI 2023
+  year: 2023
+  doi: 10.1016/j.engappai.2023.106085
+  code: https://github.com/danifuertes/mc_uav
+  bibtex: |
+    @article{fuertes2023mcuav,
+      title   = {Solving Routing Problems for Multiple Cooperative Unmanned Aerial Vehicles using Transformer Networks},
+      author  = {Fuertes, Daniel and del-Blanco, Carlos R. and Jaureguizar, Fernando and Navarro, Juan Jos{\'e} and Garc{\'i}a, Narciso},
+      journal = {Engineering Applications of Artificial Intelligence},
+      volume  = {122},
+      pages   = {106085},
+      year    = {2023},
+      doi     = {10.1016/j.engappai.2023.106085}
+    }
+
+- id: gsac-dnn
+  type: journal
+  title: People Detection with Omnidirectional Cameras using a Spatial Grid of Deep Learning Foveatic Classifiers
+  authors: [Daniel Fuertes, Carlos R. del-Blanco, Pablo Carballeira, Fernando Jaureguizar, Narciso García]
+  venue: Digital Signal Processing
+  short: DSP 2022
+  year: 2022
+  doi: 10.1016/j.dsp.2022.103473
+  code: https://github.com/danifuertes/gsac_dnn
+  bibtex: |
+    @article{fuertes2022people,
+      title   = {People Detection with Omnidirectional Cameras using a Spatial Grid of Deep Learning Foveatic Classifiers},
+      author  = {Fuertes, Daniel and del-Blanco, Carlos R. and Carballeira, Pablo and Jaureguizar, Fernando and Garc{\'i}a, Narciso},
+      journal = {Digital Signal Processing},
+      volume  = {126},
+      pages   = {103473},
+      year    = {2022},
+      doi     = {10.1016/j.dsp.2022.103473}
+    }
+
+- id: logomix
+  type: conference
+  title: "LogoMix: A Data Augmentation Technique for Object Detection Applied to Logo Recognition"
+  authors: [Daniel Fuertes, Carlos R. del-Blanco, Fernando Jaureguizar, Narciso García]
+  venue: IEEE International Conference on Consumer Electronics (ICCE)
+  short: ICCE 2022
+  year: 2022
+  doi: 10.1109/ICCE53296.2022.9730444
+  code: https://github.com/danifuertes/logo_mix
+  bibtex: |
+    @inproceedings{fuertes2022logomix,
+      title     = {LogoMix: A Data Augmentation Technique for Object Detection Applied to Logo Recognition},
+      author    = {Fuertes, Daniel and del-Blanco, Carlos R. and Jaureguizar, Fernando and Garc{\'i}a, Narciso},
+      booktitle = {IEEE International Conference on Consumer Electronics (ICCE)},
+      pages     = {1--2},
+      year      = {2022},
+      doi       = {10.1109/ICCE53296.2022.9730444}
+    }
+
+- id: msc-thesis
+  type: thesis
+  title: Implementation of a Logo Detection System based on Deep Learning Strategies for Media Impact Analysis in Social Networks
+  authors: [Daniel Fuertes]
+  venue: {en: "Master's Thesis, Universidad Politécnica de Madrid", es: "Trabajo Fin de Máster, Universidad Politécnica de Madrid"}
+  short: {en: MSc 2020, es: TFM 2020}
+  year: 2020
+  url: https://oa.upm.es/63132/
+  bibtex: |
+    @mastersthesis{fuertes2020msc,
+      title  = {Implementation of a Logo Detection System based on Deep Learning Strategies for Media Impact Analysis in Social Networks},
+      author = {Fuertes Coiras, Daniel},
+      school = {Universidad Polit{\'e}cnica de Madrid},
+      year   = {2020},
+      url    = {https://oa.upm.es/63132/}
+    }
+
+- id: bsc-thesis
+  type: thesis
+  title: Implementation of a Vehicle Detection System based on Convolutional Neural Networks from Traffic IP Cameras
+  authors: [Daniel Fuertes]
+  venue: {en: "Bachelor's Thesis, Universidad Politécnica de Madrid", es: "Trabajo Fin de Grado, Universidad Politécnica de Madrid"}
+  short: {en: BSc 2019, es: TFG 2019}
+  year: 2019
+  url: https://oa.upm.es/55808/
+  bibtex: |
+    @mastersthesis{fuertes2019bsc,
+      title  = {Implementation of a Vehicle Detection System based on Convolutional Neural Networks from Traffic IP Cameras},
+      author = {Fuertes Coiras, Daniel},
+      school = {Universidad Polit{\'e}cnica de Madrid},
+      type   = {Bachelor's thesis},
+      year   = {2019},
+      url    = {https://oa.upm.es/55808/}
+    }

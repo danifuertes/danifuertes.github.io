@@ -1,0 +1,72 @@
+# Skills grouped by what they are used for. `icon` is a file in assets/icons/.
+# Group names are written as {en: ..., es: ...}; tool names stay as they are.
+
+- group: Machine learning
+  items:
+    - { name: PyTorch, icon: pytorch.svg }
+    - { name: TensorFlow, icon: tensorflow.svg }
+    - { name: Keras, icon: keras.svg }
+    - { name: scikit-learn, icon: scikitlearn.svg }
+    - { name: Hugging Face, icon: huggingface.svg }
+    - { name: Kaggle, icon: kaggle.svg }
+
+- group: {en: Reinforcement learning & simulation, es: Reinforcement learning y simulación}
+  items:
+    - { name: Gymnasium, icon: gymnasium.webp }
+    - { name: Stable-Baselines3, icon: stablebaselines3.webp }
+    - { name: Isaac Lab, icon: isaaclab.webp }
+    - { name: Isaac Sim, icon: isaacsim.svg }
+
+- group: {en: Data & vision, es: Datos y visión}
+  items:
+    - { name: NumPy, icon: numpy.svg }
+    - { name: pandas, icon: pandas.svg }
+    - { name: OpenCV, icon: opencv.svg }
+    - { name: Matplotlib, icon: matplotlib.svg }
+    - { name: Seaborn, icon: seaborn.svg }
+
+- group: {en: Experiments & MLOps, es: Experimentos y MLOps}
+  items:
+    - { name: Weights & Biases, icon: wandb.svg }
+    - { name: TensorBoard, icon: tensorboard.svg }
+    - { name: Hydra, icon: hydra.webp }
+    - { name: Papermill, icon: papermill.svg }
+    - { name: tqdm, icon: tqdm.svg }
+    - { name: Docker, icon: docker.svg }
+    - { name: Kubernetes, icon: kubernetes.svg }
+
+- group: {en: Demos & interactive apps, es: Demos y aplicaciones interactivas}
+  items:
+    - { name: Streamlit, icon: streamlit.svg }
+    - { name: Gradio, icon: gradio.svg }
+    - { name: NiceGUI, icon: nicegui.webp }
+    - { name: marimo, icon: marimo.webp }
+
+- group: {en: Development, es: Desarrollo}
+  items:
+    - { name: Python, icon: python.svg }
+    - { name: MATLAB, icon: matlab.svg }
+    - { name: VS Code, icon: vscode.svg }
+    - { name: PyCharm, icon: pycharm.svg }
+    - { name: Jupyter, icon: jupyter.svg }
+    - { name: Colab, icon: colab.svg }
+    - { name: Anaconda, icon: anaconda.svg }
+    - { name: Git, icon: git.svg }
+    - { name: GitHub, icon: github.svg }
+    - { name: Bitbucket, icon: bitbucket.svg }
+    - { name: YAML, icon: yaml.svg }
+    - { name: JSON, icon: json.svg }
+    - { name: Linux, icon: linux.webp }
+    - { name: Ubuntu, icon: ubuntu.svg }
+    - { name: Windows, icon: windows11.svg }
+    - { name: Bash, icon: bash.svg }
+    - { name: PowerShell, icon: powershell.svg }
+
+- group: {en: Research writing, es: Redacción científica}
+  items:
+    - { name: LaTeX, icon: latex.svg }
+    - { name: Overleaf, icon: overleaf.svg }
+    - { name: draw.io, icon: drawio.svg }
+    - { name: Inkscape, icon: inkscape.svg }
+    - { name: Notion, icon: notion.svg }
+    - { name: Markdown, icon: markdown.svg }

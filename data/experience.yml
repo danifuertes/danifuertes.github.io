@@ -1,0 +1,46 @@
+# Positions and education, newest first. `period` and `description` are optional.
+# Translatable text is written as {en: ..., es: ...}; organisation names stay as they are.
+
+- period: {en: 2025 – present, es: 2025 – actualidad}
+  title: {en: Assistant Professor, es: Profesor Ayudante Doctor}
+  org: Universidad Politécnica de Madrid
+  url: https://www.upm.es
+  description:
+    en: Department of Signals, Systems and Communications. Signal Theory and Communications.
+    es: Departamento de Señales, Sistemas y Radiocomunicaciones. Teoría de la Señal y Comunicaciones.
+
+- period: 2020 – 2025
+  title: {en: Researcher, es: Investigador}
+  org: Grupo de Tratamiento de Imágenes (GTI), UPM
+  url: http://gti.ssr.upm.es
+  description:
+    en: Research projects with industry partners such as Airbus Defence and Space.
+    es: Proyectos de investigación con socios industriales como Airbus Defence and Space.
+
+- period: "2023"
+  title: {en: Research Intern, es: Investigador en prácticas}
+  org: Idiap Research Institute
+  url: https://www.idiap.ch
+  description: {en: International research internship., es: Estancia de investigación internacional.}
+
+- period: "2025"
+  title: {en: PhD in Telecommunication Engineering, es: Doctorado en Ingeniería de Telecomunicaciones}
+  org: Universidad Politécnica de Madrid
+  url: https://www.upm.es
+  education: true
+
+- period: "2020"
+  title: {en: MSc in Signal Theory and Communications, es: Máster en Teoría de la Señal y Comunicaciones}
+  org: Universidad Politécnica de Madrid
+  url: https://www.upm.es
+  description: {en: Focused on machine learning for big data., es: Especializado en machine learning para big data.}
+  education: true
+
+- period: "2019"
+  title: {en: BSc in Telecommunication Engineering, es: Grado en Ingeniería de Telecomunicaciones}
+  org: Universidad Politécnica de Madrid
+  url: https://www.upm.es
+  description:
+    en: Specialised in audiovisual systems and signal processing.
+    es: Especialidad en sistemas audiovisuales y procesado de señal.
+  education: true

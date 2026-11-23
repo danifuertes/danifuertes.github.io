@@ -1,0 +1,62 @@
+# Personal information shown in the sidebar and the About section.
+# Translatable text is written as {en: ..., es: ...}; a plain value is used in both languages.
+
+name: Daniel Fuertes
+photo: assets/img/profile.jpg
+
+position: {en: Assistant Professor, es: Profesor Ayudante Doctor}
+affiliation: Universidad Politécnica de Madrid
+affiliation_url: https://www.upm.es
+
+email: d.fcoiras@upm.es
+
+# Path to a PDF in the repo (e.g. assets/cv/daniel-fuertes-cv.pdf). Leave empty to hide the button.
+cv: ""
+
+# Short tags under the name in the sidebar.
+interests:
+  - Deep Reinforcement Learning
+  - {en: Multi-agent Route Planning, es: Planificación de rutas multiagente}
+  - {en: Autonomous Navigation, es: Navegación autónoma}
+  - Transformers
+  - Deep Learning
+
+# Links in the sidebar. `icon` is a file in assets/icons/.
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=-WN0LxoAAAAJ&hl=en
+    icon: scholar.svg
+  - label: ORCID
+    url: https://orcid.org/0000-0002-5746-2199
+    icon: orcid.svg
+  - label: GitHub
+    url: https://github.com/danifuertes
+    icon: github.svg
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/daniel-fuertes-coiras
+    icon: linkedin.svg
+
+# Biography for the About section. Supports [links](url), **bold** and *italic*; blank lines separate paragraphs.
+bio:
+  en: |
+    Daniel Fuertes received the Bachelor's degree in Telecommunication Engineering in 2019 and the Ph.D. degree
+    in Telecommunication Engineering in 2025, both from the Universidad Politécnica de Madrid (UPM), Madrid, Spain.
+    He has been a member of the [Grupo de Tratamiento de Imágenes (GTI)](http://gti.ssr.upm.es) at UPM since 2020,
+    taking part in several research projects with industry partners such as
+    [Airbus Defence and Space](https://www.airbus.com), and completed an international research internship
+    at the [Idiap Research Institute](https://www.idiap.ch). In 2025, he joined the Department of Signals, Systems
+    and Communications as an Assistant Professor of Signal Theory and Communications.
+
+    His research focuses on deep reinforcement learning and Transformer networks for multi-agent route planning,
+    vehicle routing problems and autonomous navigation, as well as deep learning for computer vision.
+  es: |
+    Daniel Fuertes obtuvo el título de Grado en Ingeniería de Telecomunicación en 2019 y el de Doctor en Ingeniería
+    de Telecomunicación en 2025, ambos por la Universidad Politécnica de Madrid (UPM), Madrid, España.
+    Desde 2020 es miembro del [Grupo de Tratamiento de Imágenes (GTI)](http://gti.ssr.upm.es) de la UPM, donde ha
+    participado en varios proyectos de investigación con socios industriales como
+    [Airbus Defence and Space](https://www.airbus.com), y realizó una estancia de investigación internacional en el
+    [Idiap Research Institute](https://www.idiap.ch). En 2025 se incorporó al Departamento de Señales, Sistemas y
+    Radiocomunicaciones como Profesor Ayudante Doctor de Teoría de la Señal y Comunicaciones.
+
+    Su investigación se centra en deep reinforcement learning y redes Transformer para la planificación de rutas
+    multiagente, vehicle routing problems y navegación autónoma, así como en deep learning para visión por computador.

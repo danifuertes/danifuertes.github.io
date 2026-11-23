@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    // Apply the saved or system theme before first paint to avoid a flash.
+    (function () {
+      var saved = localStorage.getItem("theme");
+      var dark = saved ? saved === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.dataset.theme = dark ? "dark" : "light";
+    })();
+  </script>
+
+  <!-- Spanish version of index.html: same structure, Spanish metadata and labels. -->
+  <title>Daniel Fuertes · Profesor Ayudante Doctor en la UPM</title>
+  <meta name="description" content="Daniel Fuertes, Profesor Ayudante Doctor en la Universidad Politécnica de Madrid (UPM). Investigación en deep reinforcement learning, redes Transformer, planificación de rutas multiagente y navegación autónoma.">
+  <link rel="canonical" href="https://danifuertes.github.io/es/">
+  <link rel="alternate" hreflang="en" href="https://danifuertes.github.io/">
+  <link rel="alternate" hreflang="es" href="https://danifuertes.github.io/es/">
+  <link rel="alternate" hreflang="x-default" href="https://danifuertes.github.io/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Daniel Fuertes">
+  <meta property="og:description" content="Profesor Ayudante Doctor en la Universidad Politécnica de Madrid. Deep reinforcement learning, planificación de rutas multiagente y navegación autónoma.">
+  <meta property="og:url" content="https://danifuertes.github.io/es/">
+  <meta property="og:image" content="https://danifuertes.github.io/assets/img/profile.jpg">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Daniel Fuertes Coiras",
+    "alternateName": "Daniel Fuertes",
+    "jobTitle": "Profesor Ayudante Doctor",
+    "url": "https://danifuertes.github.io/es/",
+    "image": "https://danifuertes.github.io/assets/img/profile.jpg",
+    "worksFor": { "@type": "CollegeOrUniversity", "name": "Universidad Politécnica de Madrid", "url": "https://www.upm.es" },
+    "sameAs": [
+      "https://scholar.google.com/citations?user=-WN0LxoAAAAJ",
+      "https://orcid.org/0000-0002-5746-2199",
+      "https://github.com/danifuertes",
+      "https://www.linkedin.com/in/daniel-fuertes-coiras"
+    ]
+  }
+  </script>
+
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="top-actions">
+    <a class="top-action lang-toggle" href="/" hreflang="en" lang="en" title="View in English" data-lang-link>EN</a>
+    <button class="top-action theme-toggle" type="button" aria-label="Cambiar modo oscuro" data-theme-toggle>
+      <svg class="icon theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      <svg class="icon theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    </button>
+  </div>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="profile-card">
+        <canvas class="route-graph" aria-hidden="true" data-route-graph></canvas>
+        <div id="profile"></div>
+      </div>
+    </aside>
+
+    <main id="main" class="content">
+      <nav class="section-nav" aria-label="Secciones"><ul id="nav"></ul></nav>
+
+      <!-- Keep the same sections and order as index.html. -->
+      <section class="section" id="about"></section>
+      <section class="section" id="research"></section>
+      <section class="section" id="publications"></section>
+      <section class="section" id="experience"></section>
+      <section class="section" id="teaching"></section>
+      <section class="section" id="awards"></section>
+      <section class="section" id="skills"></section>
+
+      <footer class="footer" id="footer"></footer>
+    </main>
+  </div>
+
+  <script src="/assets/js/vendor/js-yaml.min.js" defer></script>
+  <script src="/assets/js/render.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/mtsp.js" defer></script>
+  <script src="/assets/js/route-graph.js" defer></script>
+</body>
+</html>

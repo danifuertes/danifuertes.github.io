@@ -1,0 +1,31 @@
+# Interface text (section titles, buttons, labels) in English (en) and Spanish (es).
+
+sections:
+  about: {en: About, es: Perfil}
+  research: {en: Research, es: Investigación}
+  publications: {en: Publications, es: Publicaciones}
+  experience: {en: Experience, es: Trayectoria}
+  teaching: {en: Teaching, es: Docencia}
+  awards: {en: Awards, es: Premios}
+  skills: {en: Skills, es: Habilidades}
+
+filters:
+  all: {en: All, es: Todas}
+  journal: {en: Journal, es: Revista}
+  conference: {en: Conference, es: Congreso}
+  thesis: {en: Thesis, es: Tesis}
+
+buttons:
+  paper: {en: Paper, es: Artículo}
+  thesis: {en: Thesis, es: Tesis}
+  code: {en: Code, es: Código}
+  copy: {en: Copy, es: Copiar}
+  copied: {en: Copied, es: Copiado}
+  cv: {en: Download CV, es: Descargar CV}
+
+labels:
+  positions: {en: Positions, es: Puestos}
+  education: {en: Education, es: Formación}
+  portrait: {en: Portrait of, es: Retrato de}
+  filter: {en: Filter publications by type, es: Filtrar publicaciones por tipo}
+  copy_bibtex: {en: Copy BibTeX, es: Copiar BibTeX}
