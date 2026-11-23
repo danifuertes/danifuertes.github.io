@@ -12,7 +12,7 @@
   const ctx = canvas.getContext("2d");
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  const NODE_COUNT = 16;
+  const NODE_COUNT = 20;
   const AGENT_COUNT = 4;
   const SPEED = 28;          // px per second
   const HOLD = 1.5;          // seconds showing the finished routes
