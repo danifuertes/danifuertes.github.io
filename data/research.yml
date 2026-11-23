@@ -1,16 +1,28 @@
-# Research lines shown as cards.
+# Research lines shown as cards. Translatable text is written as {en: ..., es: ...}.
 
-- title: Multi-agent route planning
-  description: >-
-    Planning routes for fleets of cooperating agents, such as UAVs, vehicles or aircraft, on vehicle routing
-    and orienteering problems.
+- title: {en: Multi-agent route planning, es: Planificación de rutas multiagente}
+  description:
+    en: >-
+      Planning routes for fleets of cooperating agents, such as UAVs, vehicles or aircraft, on vehicle routing
+      and orienteering problems.
+    es: >-
+      Planificación de rutas para flotas de agentes que cooperan, como UAVs, vehículos o aeronaves, en problemas
+      de vehicle routing y orienteering.
 
-- title: Autonomous navigation
-  description: >-
-    End-to-end models that solve route planning and path finding jointly, so agents reach their goals
-    while avoiding obstacles.
+- title: {en: Autonomous navigation, es: Navegación autónoma}
+  description:
+    en: >-
+      End-to-end models that solve route planning and path finding jointly, so agents reach their goals
+      while avoiding obstacles.
+    es: >-
+      Modelos end-to-end que resuelven conjuntamente la planificación de rutas y el path finding, para que los
+      agentes alcancen sus objetivos evitando obstáculos.
 
 - title: Deep learning
-  description: >-
-    Deep reinforcement learning and Transformer networks for decision making on graphs, and deep learning
-    models for perception and computer vision.
+  description:
+    en: >-
+      Deep reinforcement learning and Transformer networks for decision making on graphs, and deep learning
+      models for perception and computer vision.
+    es: >-
+      Deep reinforcement learning y redes Transformer para la toma de decisiones sobre grafos, y modelos de
+      deep learning para percepción y visión por computador.

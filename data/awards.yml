@@ -1,14 +1,14 @@
-# Awards, newest first. `url` is optional.
+# Awards, newest first. `url` is optional. Translatable text is written as {en: ..., es: ...}.
 
 - year: 2023
-  title: First Prize, Defense Tech Research (Zarco del Valle)
+  title: {en: "First Prize, Defense Tech Research (Zarco del Valle)", es: "Primer premio, Investigación Tecnológica en Defensa (Zarco del Valle)"}
   org: CESEDEN
   url: https://www.defensa.gob.es/ceseden
 - year: 2022
-  title: Second Prize, Defense Tech Research (Zarco del Valle)
+  title: {en: "Second Prize, Defense Tech Research (Zarco del Valle)", es: "Segundo premio, Investigación Tecnológica en Defensa (Zarco del Valle)"}
   org: CESEDEN
   url: https://www.defensa.gob.es/ceseden
 - year: 2019
-  title: Award for the Best Academic Record in Audiovisual Systems
+  title: {en: Award for the Best Academic Record in Audiovisual Systems, es: Premio al mejor expediente académico en Sistemas Audiovisuales}
   org: RTVE
   url: https://www.rtve.es

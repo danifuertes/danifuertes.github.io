@@ -7,7 +7,8 @@ It is a plain static site (HTML, CSS and JavaScript) with no build step. The pag
 ## Folders
 
 ```
-index.html          Page shell: metadata for search engines and link previews, sidebar, empty sections
+index.html          English page: metadata for search engines and link previews, sidebar, empty sections
+es/index.html       Spanish page: same structure as index.html, with Spanish metadata and labels
 404.html            "Page not found" page served by GitHub Pages
 .nojekyll           Tells GitHub Pages to serve files as they are, without running Jekyll
 data/               Page content (YAML). Edit these files to update the site
@@ -32,8 +33,20 @@ assets/
 | [`data/teaching.yml`](data/teaching.yml) | Courses (section hidden while empty) |
 | [`data/awards.yml`](data/awards.yml) | Awards |
 | [`data/skills.yml`](data/skills.yml) | Skills grouped by category, each with a logo from `assets/icons/` |
+| [`data/ui.yml`](data/ui.yml) | Interface text: section titles, buttons, labels |
 
-A section whose file is empty is hidden automatically, along with its link in the navigation bar. To reorder sections, move the `<section>` lines in `index.html`.
+A section whose file is empty is hidden automatically, along with its link in the navigation bar. To reorder sections, move the `<section>` lines in both `index.html` and `es/index.html`.
+
+### English and Spanish
+
+Both pages read the same data files. Text that changes between languages is written as a pair; anything else (names, paper titles, technical terms) is written once and shown in both:
+
+```yaml
+title: {en: Autonomous navigation, es: Navegación autónoma}   # translated
+org: Idiap Research Institute                                 # same in both pages
+```
+
+If the `es` value is missing, the English one is shown. The page language comes from `<html lang>`; the `EN`/`ES` button links the two pages.
 
 ### Adding a publication
 
@@ -45,10 +58,10 @@ A section whose file is empty is hidden automatically, along with its link in th
 
 ## Local preview
 
-Open the folder with VS Code **Live Server**, or run:
+Open this folder (the repository root) with VS Code **Live Server**, or run from it:
 
 ```bash
 python3 -m http.server 8000   # http://localhost:8000
 ```
 
-Opening `index.html` directly from disk (`file://`) does not work, because browsers block loading the YAML files that way.
+The English page is at `/` and the Spanish one at `/es/`. Paths are relative to the site root, so the server must serve this folder at `/`. Opening `index.html` directly from disk (`file://`) does not work, because browsers block loading the YAML files that way.

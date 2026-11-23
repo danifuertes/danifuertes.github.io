@@ -1,39 +1,46 @@
 # Positions and education, newest first. `period` and `description` are optional.
+# Translatable text is written as {en: ..., es: ...}; organisation names stay as they are.
 
-- period: 2025 – present
-  title: Assistant Professor
+- period: {en: 2025 – present, es: 2025 – actualidad}
+  title: {en: Assistant Professor, es: Profesor Ayudante Doctor}
   org: Universidad Politécnica de Madrid
   url: https://www.upm.es
-  description: Department of Signals, Systems and Communications. Signal Theory and Communications.
+  description:
+    en: Department of Signals, Systems and Communications. Signal Theory and Communications.
+    es: Departamento de Señales, Sistemas y Radiocomunicaciones. Teoría de la Señal y Comunicaciones.
 
 - period: 2020 – 2025
-  title: Researcher
+  title: {en: Researcher, es: Investigador}
   org: Grupo de Tratamiento de Imágenes (GTI), UPM
   url: http://gti.ssr.upm.es
-  description: Research projects with industry partners such as Airbus Defence and Space.
+  description:
+    en: Research projects with industry partners such as Airbus Defence and Space.
+    es: Proyectos de investigación con socios industriales como Airbus Defence and Space.
 
-- period: ""
-  title: Research Intern
+- period: "2023"
+  title: {en: Research Intern, es: Investigador en prácticas}
   org: Idiap Research Institute
   url: https://www.idiap.ch
-  description: International research internship.
+  description: {en: International research internship., es: Estancia de investigación internacional.}
 
 - period: "2025"
-  title: PhD in Telecommunication Engineering
+  title: {en: PhD in Telecommunication Engineering, es: Doctorado en Ingeniería de Telecomunicaciones}
   org: Universidad Politécnica de Madrid
   url: https://www.upm.es
   education: true
 
 - period: "2020"
-  title: MSc in Signal Theory and Communications
+  title: {en: MSc in Signal Theory and Communications, es: Máster en Teoría de la Señal y Comunicaciones}
   org: Universidad Politécnica de Madrid
   url: https://www.upm.es
-  description: Focused on machine learning for big data.
+  description: {en: Focused on machine learning for big data., es: Especializado en machine learning para big data.}
   education: true
 
 - period: "2019"
-  title: BSc in Telecommunication Engineering
+  title: {en: BSc in Telecommunication Engineering, es: Grado en Ingeniería de Telecomunicaciones}
   org: Universidad Politécnica de Madrid
   url: https://www.upm.es
-  description: Specialised in audiovisual systems and signal processing.
+  description:
+    en: Specialised in audiovisual systems and signal processing.
+    es: Especialidad en sistemas audiovisuales y procesado de señal.
   education: true

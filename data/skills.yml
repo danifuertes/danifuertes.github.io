@@ -1,12 +1,14 @@
 # Skills grouped by category. `icon` is a file in assets/icons/.
+# Group names are written as {en: ..., es: ...}; tool names stay as they are.
 
-- group: Programming & IDEs
+- group: {en: Programming & IDEs, es: Programación e IDEs}
   items:
     - { name: Python, icon: python.svg }
     - { name: MATLAB, icon: matlab.svg }
     - { name: VS Code, icon: vscode.svg }
     - { name: PyCharm, icon: pycharm.svg }
     - { name: Jupyter, icon: jupyter.svg }
+    - { name: marimo, icon: marimo.webp }
     - { name: Colab, icon: colab.svg }
 
 - group: Deep (reinforcement) learning
@@ -21,7 +23,7 @@
     - { name: Isaac Lab, icon: isaaclab.webp }
     - { name: Isaac Sim, icon: isaacsim.svg }
 
-- group: Scientific computing & visualization
+- group: {en: Scientific computing & visualization, es: Computación científica y visualización}
   items:
     - { name: NumPy, icon: numpy.svg }
     - { name: pandas, icon: pandas.svg }
@@ -31,9 +33,10 @@
     - { name: OpenCV, icon: opencv.svg }
     - { name: Streamlit, icon: streamlit.svg }
     - { name: Gradio, icon: gradio.svg }
+    - { name: NiceGUI, icon: nicegui.webp }
     - { name: Anaconda, icon: anaconda.svg }
 
-- group: Experiment tracking
+- group: {en: Experiment tracking, es: Seguimiento de experimentos}
   items:
     - { name: TensorBoard, icon: tensorboard.svg }
     - { name: Weights & Biases, icon: wandb.svg }
@@ -41,7 +44,7 @@
     - { name: Papermill, icon: papermill.svg }
     - { name: tqdm, icon: tqdm.svg }
 
-- group: DevOps & tools
+- group: {en: DevOps & tools, es: DevOps y herramientas}
   items:
     - { name: Docker, icon: docker.svg }
     - { name: Kubernetes, icon: kubernetes.svg }
@@ -51,7 +54,7 @@
     - { name: YAML, icon: yaml.svg }
     - { name: JSON, icon: json.svg }
 
-- group: Documentation & writing
+- group: {en: Documentation & writing, es: Documentación y redacción}
   items:
     - { name: LaTeX, icon: latex.svg }
     - { name: Overleaf, icon: overleaf.svg }
@@ -60,7 +63,7 @@
     - { name: draw.io, icon: drawio.svg }
     - { name: Inkscape, icon: inkscape.svg }
 
-- group: OS & environment
+- group: {en: OS & environment, es: Sistemas operativos y entorno}
   items:
     - { name: Linux, icon: linux.webp }
     - { name: Ubuntu, icon: ubuntu.svg }

@@ -64,6 +64,11 @@
     }
   });
 
+  // Keep the current section (#hash) when switching language.
+  document.querySelector("[data-lang-link]")?.addEventListener("click", (e) => {
+    if (location.hash) e.currentTarget.href = e.currentTarget.getAttribute("href") + location.hash;
+  });
+
   // Highlight the nav link of the section currently in view.
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {

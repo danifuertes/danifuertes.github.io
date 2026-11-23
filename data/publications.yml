@@ -7,6 +7,8 @@
 #   authors   list of author names; the profile name is highlighted automatically
 #   venue     full venue name
 #   short     short badge shown on the card (e.g. "IROS 2025")
+#
+# Titles and venue names are not translated. Theses use {en: ..., es: ...} for `venue` and `short`.
 #   year      publication year
 #   doi       DOI without the https://doi.org/ prefix          (optional)
 #   url       link when there is no DOI                          (optional)
@@ -38,8 +40,8 @@
   type: thesis
   title: Multi-agent Route Planning using Deep Reinforcement Learning Techniques and Transformer Networks for Graph Analysis
   authors: [Daniel Fuertes]
-  venue: PhD Thesis, Universidad Politécnica de Madrid
-  short: PhD 2025
+  venue: {en: "PhD Thesis, Universidad Politécnica de Madrid", es: "Tesis doctoral, Universidad Politécnica de Madrid"}
+  short: {en: PhD 2025, es: Tesis 2025}
   year: 2025
   doi: 10.20868/UPM.thesis.91225
   bibtex: |
@@ -194,8 +196,8 @@
   type: thesis
   title: Implementation of a Logo Detection System based on Deep Learning Strategies for Media Impact Analysis in Social Networks
   authors: [Daniel Fuertes]
-  venue: Master's Thesis, Universidad Politécnica de Madrid
-  short: MSc 2020
+  venue: {en: "Master's Thesis, Universidad Politécnica de Madrid", es: "Trabajo Fin de Máster, Universidad Politécnica de Madrid"}
+  short: {en: MSc 2020, es: TFM 2020}
   year: 2020
   url: https://oa.upm.es/63132/
   bibtex: |
@@ -211,8 +213,8 @@
   type: thesis
   title: Implementation of a Vehicle Detection System based on Convolutional Neural Networks from Traffic IP Cameras
   authors: [Daniel Fuertes]
-  venue: Bachelor's Thesis, Universidad Politécnica de Madrid
-  short: BSc 2019
+  venue: {en: "Bachelor's Thesis, Universidad Politécnica de Madrid", es: "Trabajo Fin de Grado, Universidad Politécnica de Madrid"}
+  short: {en: BSc 2019, es: TFG 2019}
   year: 2019
   url: https://oa.upm.es/55808/
   bibtex: |
