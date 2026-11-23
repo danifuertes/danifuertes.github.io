@@ -16,7 +16,8 @@ assets/
   css/main.css      All styles; colours and fonts for light and dark themes are at the top
   js/render.js      Reads data/*.yml and builds every section of the page
   js/main.js        Interactions: theme toggle, publication filter, BibTeX copy, active nav link
-  js/route-graph.js Animated multi-agent routing banner in the sidebar
+  js/route-graph.js Animated banner in the sidebar: random instance, solved routes, moving agents
+  js/mtsp.js        Min-max mTSP heuristic that computes the banner's routes
   js/vendor/        Third-party libraries (js-yaml, the YAML parser)
   img/              Profile photo, favicon, and paper thumbnails in img/papers/
   icons/            Logos for the contact links and the skills
