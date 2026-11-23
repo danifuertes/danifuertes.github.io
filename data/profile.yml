@@ -1,0 +1,54 @@
+# Personal information shown in the sidebar, the About section and the page metadata.
+
+name: Daniel Fuertes
+full_name: Daniel Fuertes Coiras
+photo: assets/img/profile.jpg
+
+position: Assistant Professor
+affiliation: Universidad Politécnica de Madrid
+affiliation_short: UPM
+affiliation_url: https://www.upm.es
+department: Department of Signals, Systems and Communications
+group: Grupo de Tratamiento de Imágenes (GTI)
+group_url: http://gti.ssr.upm.es
+
+email: dfc@gti.ssr.upm.es
+
+# Path to a PDF in the repo (e.g. assets/cv/daniel-fuertes-cv.pdf). Leave empty to hide the button.
+cv: ""
+
+# Short tags under the name in the sidebar.
+interests:
+  - Deep Reinforcement Learning
+  - Multi-agent Route Planning
+  - Autonomous Navigation
+  - Transformers
+  - Computer Vision
+
+# Links in the sidebar. `icon` is a file in assets/icons/.
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=-WN0LxoAAAAJ&hl=en
+    icon: scholar.svg
+  - label: ORCID
+    url: https://orcid.org/0000-0002-5746-2199
+    icon: orcid.svg
+  - label: GitHub
+    url: https://github.com/danifuertes
+    icon: github.svg
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/daniel-fuertes-coiras
+    icon: linkedin.svg
+
+# Biography for the About section (Markdown).
+bio: |
+  Daniel Fuertes received the Bachelor's degree in Telecommunication Engineering in 2019 and the Ph.D. degree
+  in Telecommunication Engineering in 2025, both from the Universidad Politécnica de Madrid (UPM), Madrid, Spain.
+  He has been a member of the [Grupo de Tratamiento de Imágenes (GTI)](http://gti.ssr.upm.es) at UPM since 2020,
+  taking part in several research projects with industry partners such as
+  [Airbus Defence and Space](https://www.airbus.com), and completed an international research internship
+  at the [Idiap Research Institute](https://www.idiap.ch). In 2025, he joined the Department of Signals, Systems
+  and Communications as an Assistant Professor of Signal Theory and Communications.
+
+  His research focuses on deep reinforcement learning and Transformer networks for multi-agent route planning,
+  vehicle routing problems and autonomous navigation, as well as deep learning for computer vision.

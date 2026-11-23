@@ -1,0 +1,12 @@
+# Skills grouped by category, shown as plain tags.
+
+- group: Deep learning & RL
+  items: [PyTorch, TensorFlow, Keras, Hugging Face, Gymnasium, Stable-Baselines3, Isaac Lab, Isaac Sim]
+- group: Scientific computing
+  items: [Python, MATLAB, NumPy, pandas, scikit-learn, OpenCV, Matplotlib, Seaborn]
+- group: Experimentation
+  items: [Weights & Biases, TensorBoard, Hydra, Papermill, Jupyter, Streamlit, Gradio]
+- group: Infrastructure
+  items: [Linux, Docker, Kubernetes, Git, Bash]
+- group: Writing
+  items: [LaTeX, Overleaf, draw.io, Inkscape]

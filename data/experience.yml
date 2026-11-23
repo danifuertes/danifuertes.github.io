@@ -1,0 +1,39 @@
+# Positions and education, newest first. `period` and `description` are optional.
+
+- period: 2025 – present
+  title: Assistant Professor
+  org: Universidad Politécnica de Madrid
+  url: https://www.upm.es
+  description: Department of Signals, Systems and Communications. Signal Theory and Communications.
+
+- period: 2020 – 2025
+  title: Researcher
+  org: Grupo de Tratamiento de Imágenes (GTI), UPM
+  url: http://gti.ssr.upm.es
+  description: Research projects with industry partners such as Airbus Defence and Space.
+
+- period: ""
+  title: Research Intern
+  org: Idiap Research Institute
+  url: https://www.idiap.ch
+  description: International research internship.
+
+- period: "2025"
+  title: PhD in Telecommunication Engineering
+  org: Universidad Politécnica de Madrid
+  url: https://www.upm.es
+  education: true
+
+- period: "2020"
+  title: MSc in Signal Theory and Communications
+  org: Universidad Politécnica de Madrid
+  url: https://www.upm.es
+  description: Focused on machine learning for big data.
+  education: true
+
+- period: "2019"
+  title: BSc in Telecommunication Engineering
+  org: Universidad Politécnica de Madrid
+  url: https://www.upm.es
+  description: Specialised in audiovisual systems and signal processing.
+  education: true
